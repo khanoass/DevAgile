@@ -33,6 +33,7 @@
             this.lblUserName = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.btnValidation = new System.Windows.Forms.Button();
+            this.buttonCreateAccount = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbLoginUserName
@@ -57,7 +58,6 @@
             this.lblUserName.Size = new System.Drawing.Size(60, 13);
             this.lblUserName.TabIndex = 2;
             this.lblUserName.Text = "User Name";
-            this.lblUserName.Click += new System.EventHandler(this.lblUserName_Click);
             // 
             // lblPassword
             // 
@@ -76,12 +76,24 @@
             this.btnValidation.TabIndex = 4;
             this.btnValidation.Text = "Valider";
             this.btnValidation.UseVisualStyleBackColor = true;
+            this.btnValidation.Click += new System.EventHandler(this.btnValidation_Click);
+            // 
+            // buttonCreateAccount
+            // 
+            this.buttonCreateAccount.Location = new System.Drawing.Point(514, 169);
+            this.buttonCreateAccount.Name = "buttonCreateAccount";
+            this.buttonCreateAccount.Size = new System.Drawing.Size(97, 23);
+            this.buttonCreateAccount.TabIndex = 5;
+            this.buttonCreateAccount.Text = "Créer un compte";
+            this.buttonCreateAccount.UseVisualStyleBackColor = true;
+            this.buttonCreateAccount.Click += new System.EventHandler(this.buttonCreateAccount_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonCreateAccount);
             this.Controls.Add(this.btnValidation);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUserName);
@@ -101,5 +113,6 @@
         private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Button btnValidation;
+        private System.Windows.Forms.Button buttonCreateAccount;
     }
 }

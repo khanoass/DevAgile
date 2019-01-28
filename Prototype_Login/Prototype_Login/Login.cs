@@ -24,7 +24,12 @@ namespace Prototype_Login
 
         }
 
-        private void lblUserName_Click(object sender, EventArgs e)
+        private void btnValidation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCreateAccount_Click(object sender, EventArgs e)
         {
 
         }
