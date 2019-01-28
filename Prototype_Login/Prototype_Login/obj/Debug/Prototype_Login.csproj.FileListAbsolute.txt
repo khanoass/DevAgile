@@ -8,3 +8,17 @@ E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.
 E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
 E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
 E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe.config
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.pdb
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\Google.Protobuf.dll
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\MySql.Data.dll
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\Google.Protobuf.xml
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\bin\Debug\MySql.Data.xml
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csprojResolveAssemblyReference.cache
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Login.resources
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Properties.Resources.resources
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.GenerateResource.Cache
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
+D:\DATA\moulinma\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
