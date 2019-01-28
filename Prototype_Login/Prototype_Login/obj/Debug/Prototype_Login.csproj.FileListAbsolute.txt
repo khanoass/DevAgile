@@ -1,0 +1,10 @@
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe.config
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.pdb
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csprojAssemblyReference.cache
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Form1.resources
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Properties.Resources.resources
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.GenerateResource.cache
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
+E:\2ème Année\Scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
