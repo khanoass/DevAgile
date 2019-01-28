@@ -42,6 +42,7 @@
             this.txbLoginUserName.Name = "txbLoginUserName";
             this.txbLoginUserName.Size = new System.Drawing.Size(100, 20);
             this.txbLoginUserName.TabIndex = 0;
+            this.txbLoginUserName.TextChanged += new System.EventHandler(this.txbLoginUserName_TextChanged);
             // 
             // txbLoginPassword
             // 
@@ -49,6 +50,7 @@
             this.txbLoginPassword.Name = "txbLoginPassword";
             this.txbLoginPassword.Size = new System.Drawing.Size(100, 20);
             this.txbLoginPassword.TabIndex = 1;
+            this.txbLoginPassword.TextChanged += new System.EventHandler(this.txbLoginPassword_TextChanged);
             // 
             // lblUserName
             // 
@@ -70,6 +72,7 @@
             // 
             // btnValidation
             // 
+            this.btnValidation.Enabled = false;
             this.btnValidation.Location = new System.Drawing.Point(514, 244);
             this.btnValidation.Name = "btnValidation";
             this.btnValidation.Size = new System.Drawing.Size(75, 23);
