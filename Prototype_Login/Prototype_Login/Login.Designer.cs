@@ -42,7 +42,7 @@
             this.txbLoginUserName.Name = "txbLoginUserName";
             this.txbLoginUserName.Size = new System.Drawing.Size(100, 20);
             this.txbLoginUserName.TabIndex = 0;
-            this.txbLoginUserName.TextChanged += new System.EventHandler(this.txbLoginUserName_TextChanged);
+            this.txbLoginUserName.TextChanged += new System.EventHandler(this.TextChanged_txbLoginUserName);
             // 
             // txbLoginPassword
             // 
@@ -50,7 +50,7 @@
             this.txbLoginPassword.Name = "txbLoginPassword";
             this.txbLoginPassword.Size = new System.Drawing.Size(100, 20);
             this.txbLoginPassword.TabIndex = 1;
-            this.txbLoginPassword.TextChanged += new System.EventHandler(this.txbLoginPassword_TextChanged);
+            this.txbLoginPassword.TextChanged += new System.EventHandler(this.TextChanged_txbLoginPassword);
             // 
             // lblUserName
             // 
@@ -79,7 +79,7 @@
             this.btnValidation.TabIndex = 4;
             this.btnValidation.Text = "Valider";
             this.btnValidation.UseVisualStyleBackColor = true;
-            this.btnValidation.Click += new System.EventHandler(this.btnValidation_Click);
+            this.btnValidation.Click += new System.EventHandler(this.Click_btnValidation);
             // 
             // buttonCreateAccount
             // 
@@ -89,7 +89,7 @@
             this.buttonCreateAccount.TabIndex = 5;
             this.buttonCreateAccount.Text = "Créer un compte";
             this.buttonCreateAccount.UseVisualStyleBackColor = true;
-            this.buttonCreateAccount.Click += new System.EventHandler(this.buttonCreateAccount_Click);
+            this.buttonCreateAccount.Click += new System.EventHandler(this.Click_buttonCreateAccount);
             // 
             // Login
             // 

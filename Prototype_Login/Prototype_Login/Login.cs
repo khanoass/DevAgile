@@ -1,55 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿//  ETML
+//  Auteur : Noah Delgado
+//  Date : 28.01.2019
+//  Description : Authentification
+
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using Prototype_Login.Controllers;
 using System.Text.RegularExpressions;
 
 namespace Prototype_Login
 {
+    /// <summary>
+    /// Page d'authentification
+    /// </summary>
     public partial class Login : Form
     {
-        MySqlConnection pictionnary = new MySqlConnection("database=db_pictionnary; server=172.16.30.244; user id=pictionnary; pwd=.Etml-");
-        MySqlCommand cmd;
+        AuthenticationController authController;
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Login()
         {
+            authController = new AuthenticationController();
 
+            //Initialisation de la vue
             InitializeComponent();
-            cmd = pictionnary.CreateCommand();
-            try
+
+        }
+
+        /// <summary>
+        /// Connexion à un compte
+        /// </summary>
+        private void Click_btnValidation(object sender, EventArgs e)
+        {
+            if(authController.Log_in(txbLoginUserName.Text, txbLoginPassword.Text))
             {
-                pictionnary.Open();
+                MessageBox.Show("Vous êtes connecté");
             }
-            catch ( Exception erreur)
+            else
             {
-                MessageBox.Show($"{erreur}\nConnexion a la base de donnée impossible");
+                MessageBox.Show("Mauvais mdp");
             }
-
-
         }
 
-        private void btnValidation_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Création d'un compte
+        /// </summary>
+        private void Click_buttonCreateAccount(object sender, EventArgs e)
         {
-
-            cmd.CommandText = ($"SELECT usrName, usrPasswordHash from t_user WHERE usrName={txbLoginUserName.Text};");
-
-
+            authController.Sign_in(txbLoginUserName.Text, txbLoginPassword.Text);
         }
 
-        private void buttonCreateAccount_Click(object sender, EventArgs e)
+        private void TextChanged_txbLoginUserName(object sender, EventArgs e)
         {
-
-        }
-
-        private void txbLoginUserName_TextChanged(object sender, EventArgs e)
-        {
-            if (Regex.IsMatch(txbLoginUserName.Text,""))
+            if (Regex.IsMatch(txbLoginUserName.Text, ""))
             {
                 lblUserName.ForeColor = Color.Black;
                 CheckTheMatch();
@@ -60,7 +66,7 @@ namespace Prototype_Login
             }
         }
 
-        private void txbLoginPassword_TextChanged(object sender, EventArgs e)
+        private void TextChanged_txbLoginPassword(object sender, EventArgs e)
         {
             if (Regex.IsMatch(txbLoginPassword.Text, ""))
             {
@@ -75,7 +81,7 @@ namespace Prototype_Login
 
         private void CheckTheMatch()
         {
-            if(lblUserName.ForeColor == Color.Black && lblPassword.ForeColor == Color.Black)
+            if (lblUserName.ForeColor == Color.Black && lblPassword.ForeColor == Color.Black)
             {
                 btnValidation.Enabled = true;
             }
