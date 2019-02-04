@@ -37,6 +37,8 @@ namespace Client
             client.Listen(socket);
 
             Console.ReadLine();
+
+            // Commentaire de test sans importance
         }
 
         /// <summary>
