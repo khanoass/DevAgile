@@ -37,3 +37,17 @@ C:\Users\delgadono\Projet_scrum\Prototype_Login\Prototype_Login\obj\Debug\Protot
 C:\Users\delgadono\Projet_scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CopyComplete
 C:\Users\delgadono\Projet_scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
 C:\Users\delgadono\Projet_scrum\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe.config
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.exe
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\Prototype_Login.pdb
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\Google.Protobuf.dll
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\MySql.Data.dll
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\Google.Protobuf.xml
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\bin\Debug\MySql.Data.xml
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csprojResolveAssemblyReference.cache
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Login.resources
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Properties.Resources.resources
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.GenerateResource.Cache
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
+D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb

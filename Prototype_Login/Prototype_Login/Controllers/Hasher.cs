@@ -11,7 +11,7 @@ namespace Prototype_Login
     /// <summary>
     /// Hâcheur (source: https://stackoverflow.com/questions/3984138/hash-string-in-c-sharp)
     /// </summary>
-    class Hasher
+    public static class Hasher
     {
         /// <summary>
         /// Hâche un string et retourne un tableau de bytes
@@ -35,15 +35,15 @@ namespace Prototype_Login
             byte[] result = GetHash(inputString);
 
             //Constructeur de string
-            StringBuilder sb = new StringBuilder();
+            StringBuilder stringBuilder = new StringBuilder();
 
             //Conversion du tableau de bytes en string
-            foreach (byte b in result)
+            foreach (byte part in result)
             {
-                sb.Append(b.ToString("X2"));
+                stringBuilder.Append(part.ToString("X2"));
             }
 
-            return sb.ToString();
+            return stringBuilder.ToString();
         }
     }
 }
