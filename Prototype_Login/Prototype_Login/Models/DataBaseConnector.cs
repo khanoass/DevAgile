@@ -4,6 +4,7 @@
 //  Description : Connecteur à la base de données
 
 using MySql.Data.MySqlClient;
+using System;
 
 namespace Prototype_Login.Models
 {
@@ -62,7 +63,7 @@ namespace Prototype_Login.Models
         public object FindPassword(string username)
         {
             //Écriture de la commande
-            sqlCommand.CommandText = ($"SELECT usrPasswordHash from t_user WHERE usrName=\"{username}\";");
+            sqlCommand.CommandText = ($"SELECT usrPasswordHash FROM t_user WHERE usrName=\"{username}\";");
 
             //Exécution de la commande
             return sqlCommand.ExecuteScalar();
@@ -81,6 +82,33 @@ namespace Prototype_Login.Models
 
             //Exécution de la commande
             return sqlCommand.ExecuteNonQuery() == 1;
+        }
+
+        /// <summary>
+        /// Comptage du nombre de comptes guest
+        /// </summary>
+        /// <returns>nombre de comptes guest</returns>
+        public int GetAmountOfAccounts()
+        {
+            //Écriture de la commande
+            sqlCommand.CommandText = ($"SELECT COUNT(*) FROM t_user WHERE usrName LIKE \"Guest%\";");
+
+            //Exécution de la commande
+            return Convert.ToInt32((long)sqlCommand.ExecuteScalar());
+        }
+
+        /// <summary>
+        /// Vérifie l'unicité du nom d'utilisateur
+        /// </summary>
+        /// <param name="username">Nom d'utilisateur</param>
+        /// <returns>bool</returns>
+        public bool CheckUniquenessUsername(string username)
+        {
+            //Écriture de la commande
+            sqlCommand.CommandText = ($"SELECT COUNT(*) FROM t_user WHERE usrName=\"{username}\";");
+
+            //Exécution de la commande
+            return (long)sqlCommand.ExecuteScalar() == 0;
         }
     }
 }
