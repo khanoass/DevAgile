@@ -1,0 +1,7 @@
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\bin\Debug\Network.exe.config
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\bin\Debug\Network.exe
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\bin\Debug\Network.pdb
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.csprojResolveAssemblyReference.cache
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.csproj.CoreCompileInputs.cache
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.exe
+C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.pdb
