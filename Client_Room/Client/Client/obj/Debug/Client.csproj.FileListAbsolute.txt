@@ -5,3 +5,10 @@ C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.csprojAss
 C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.exe
 C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.pdb
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\bin\Debug\Client.exe.config
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\bin\Debug\Client.exe
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\bin\Debug\Client.pdb
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.exe
+F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.pdb

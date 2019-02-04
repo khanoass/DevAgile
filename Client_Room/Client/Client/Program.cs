@@ -16,7 +16,7 @@ namespace Client
             Client client = new Client();
 
             IPAddress ipAdressServer = IPAddress.Parse("172.16.30.46");
-            IPAddress ipAdressLocal = IPAddress.Parse("172.16.30.47");
+            IPAddress ipAdressLocal = RecupIpAdress();
 
             string username = "staubligu";
             
@@ -43,7 +43,7 @@ namespace Client
         /// Recup the ipAdress of the client
         /// </summary>
         /// <returns>client's ip adress</returns>
-        public IPAddress RecupIpAdress()
+        static IPAddress RecupIpAdress()
         {
             IPAddress[] localIps = Dns.GetHostAddresses(Dns.GetHostName());
 
