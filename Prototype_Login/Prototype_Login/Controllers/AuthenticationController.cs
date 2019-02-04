@@ -69,7 +69,7 @@ namespace Prototype_Login.Controllers
         public bool CreateGuestAccount()
         {
             //Création de l'username
-            string username = "Guest" + model.GetAmountOfAccounts();
+            string username = "Guest" + model.GetNewGuestNumber();
 
             //Vérification que ce compte n'existe pas
             if (model.CheckUniquenessUsername(username))
