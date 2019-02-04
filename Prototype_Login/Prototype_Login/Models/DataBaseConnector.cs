@@ -63,7 +63,7 @@ namespace Prototype_Login.Models
         public object FindPassword(string username)
         {
             //Écriture de la commande
-            sqlCommand.CommandText = ($"SELECT usrPasswordHash FROM t_user WHERE usrName=\"{username}\";");
+            sqlCommand.CommandText = $"SELECT usrPasswordHash FROM t_user WHERE usrName=\"{username}\";";
 
             //Exécution de la commande
             return sqlCommand.ExecuteScalar();
@@ -75,10 +75,12 @@ namespace Prototype_Login.Models
         /// <param name="username">Nom d'utilisateur</param>
         /// <param name="password">Mot de passe</param>
         /// <returns>bool définissant si la création du compte a réussi</returns>
-        public bool CreateAccount(string username, string password)
+        public bool CreateAccount(string username, string password, bool isGuest = false)
         {
+            string strIsGuest = isGuest ? "TRUE" : "FALSE";
+
             //Écriture de la commande
-            sqlCommand.CommandText = ($"INSERT INTO t_user (idUser, usrName, usrPasswordHash) VALUES (NULL, \"{username}\", \"{password}\");");
+            sqlCommand.CommandText = $"INSERT INTO t_user (idUser, usrName, usrPasswordHash, usrIsGuest) VALUES (NULL, \"{username}\", \"{password}\", {strIsGuest});";
 
             //Exécution de la commande
             return sqlCommand.ExecuteNonQuery() == 1;
@@ -88,10 +90,10 @@ namespace Prototype_Login.Models
         /// Comptage du nombre de comptes guest
         /// </summary>
         /// <returns>nombre de comptes guest</returns>
-        public int GetAmountOfAccounts()
+        public int GetNewGuestNumber()
         {
             //Écriture de la commande
-            sqlCommand.CommandText = ($"SELECT COUNT(*) FROM t_user WHERE usrName LIKE \"Guest%\";");
+            sqlCommand.CommandText = $"SELECT idUser FROM t_user WHERE usrIsGuest = TRUE ORDER BY idUser DESC LIMIT 1;";
 
             //Exécution de la commande
             return Convert.ToInt32((long)sqlCommand.ExecuteScalar());
@@ -105,7 +107,7 @@ namespace Prototype_Login.Models
         public bool CheckUniquenessUsername(string username)
         {
             //Écriture de la commande
-            sqlCommand.CommandText = ($"SELECT COUNT(*) FROM t_user WHERE usrName=\"{username}\";");
+            sqlCommand.CommandText = $"SELECT COUNT(*) FROM t_user WHERE usrName=\"{username}\";";
 
             //Exécution de la commande
             return (long)sqlCommand.ExecuteScalar() == 0;
