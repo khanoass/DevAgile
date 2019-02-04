@@ -1,0 +1,7 @@
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\bin\Debug\Client.exe.config
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\bin\Debug\Client.exe
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\bin\Debug\Client.pdb
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.exe
+C:\Users\staubligu\Desktop\426-DevAgile\Client\Client\obj\Debug\Client.pdb
