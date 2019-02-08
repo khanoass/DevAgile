@@ -50,7 +50,14 @@ namespace Prototype_Login
         /// </summary>
         private void Click_buttonCreateAccount(object sender, EventArgs e)
         {
-            authController.Sign_in(txbLoginUserName.Text, txbLoginPassword.Text);
+            if(authController.Sign_in(txbLoginUserName.Text, txbLoginPassword.Text))
+            {
+                MessageBox.Show("Compte créé");
+            }
+            else
+            {
+                MessageBox.Show("Échec de la création du compte, nom d'utilisateur déjà utilisé");
+            }
         }
 
         private void TextChanged_txbLoginUserName(object sender, EventArgs e)
@@ -85,6 +92,11 @@ namespace Prototype_Login
             {
                 btnValidation.Enabled = true;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            authController.CreateGuestAccount();
         }
     }
 }

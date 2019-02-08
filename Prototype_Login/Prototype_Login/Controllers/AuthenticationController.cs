@@ -15,7 +15,7 @@ namespace Prototype_Login.Controllers
         /// <summary>
         /// Connecteur à la base de donnéess
         /// </summary>
-        private DataBaseConnector connector;
+        private DataBaseConnector model;
 
         /// <summary>
         /// Constructeur
@@ -23,7 +23,8 @@ namespace Prototype_Login.Controllers
         public AuthenticationController()
         {
             //Construction du connecteur à la base de données
-            connector = new DataBaseConnector("db_pictionnary", "172.16.30.244", "pictionnary", ".Etml-");
+            model = new DataBaseConnector("db_pictionnary", "172.16.30.244", "pictionnary", ".Etml-");
+            model.Connect();
         }
 
         /// <summary>
@@ -35,7 +36,7 @@ namespace Prototype_Login.Controllers
         public bool Log_in(string username, string password)
         {
             //Exécution de la commande
-            object result = connector.FindPassword(username);
+            object result = model.FindPassword(username);
 
             //Vérification du mot de passe
             return (string)result == Hasher.Hash(password);
@@ -49,10 +50,36 @@ namespace Prototype_Login.Controllers
         /// <returns>bool définissant si la création du compte a réussi</returns>
         public bool Sign_in(string username, string password)
         {
-            //TODO Vérifier la disponibilité du username
+            //Vérifie la disponibilité du username
+            if (model.CheckUniquenessUsername(username))
+            {
+                //Création du compte
+                return model.CreateAccount(username, Hasher.Hash(password));
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-            //Création du compte
-            return connector.CreateAccount(username, Hasher.Hash(password));
+        /// <summary>
+        /// Création d'un compte invité
+        /// </summary>
+        /// <returns>bool définissant si la création a réussi</returns>
+        public bool CreateGuestAccount()
+        {
+            //Création de l'username
+            string username = "Guest" + model.GetNewGuestNumber();
+
+            //Vérification que ce compte n'existe pas
+            if (model.CheckUniquenessUsername(username))
+            {
+                return model.CreateAccount(username, "");
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
