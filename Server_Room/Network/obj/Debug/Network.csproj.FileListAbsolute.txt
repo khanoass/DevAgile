@@ -5,3 +5,9 @@ C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.csprojR
 C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.csproj.CoreCompileInputs.cache
 C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.exe
 C:\Users\felixra\Desktop\DevAgile\Code\Network\Network\obj\Debug\Network.pdb
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\bin\Debug\Network.exe.config
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\bin\Debug\Network.exe
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\bin\Debug\Network.pdb
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\obj\Debug\Network.csproj.CoreCompileInputs.cache
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\obj\Debug\Network.exe
+F:\426-DevelopperAGILE\GIT\Server_Room\Network\obj\Debug\Network.pdb

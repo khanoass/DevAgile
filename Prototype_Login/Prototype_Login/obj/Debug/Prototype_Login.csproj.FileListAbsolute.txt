@@ -51,3 +51,10 @@ D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Lo
 D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
 D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
 D:\DATA\moulinma\DevAgile\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csprojAssemblyReference.cache
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Login.resources
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.Properties.Resources.resources
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.GenerateResource.cache
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.csproj.CoreCompileInputs.cache
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.exe
+F:\426-DevelopperAGILE\GIT\Prototype_Login\Prototype_Login\obj\Debug\Prototype_Login.pdb
