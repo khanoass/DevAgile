@@ -24,7 +24,15 @@ namespace P_Pictionary.Controllers
         {
             //Construction du connecteur à la base de données
             model = new DataBaseConnector("db_pictionnary", "172.16.30.244", "pictionnary", ".Etml-");
-            model.Connect();
+        }
+
+        /// <summary>
+        /// Initialise le contrôleur
+        /// </summary>
+        /// <returns>Booléen définissant si l'initialisation a réussi</returns>
+        public bool Init()
+        {
+            return model.Connect();
         }
 
         /// <summary>
@@ -74,7 +82,7 @@ namespace P_Pictionary.Controllers
             //Vérification que ce compte n'existe pas
             if (model.CheckUniquenessUsername(username))
             {
-                return model.CreateAccount(username, "");
+                return model.CreateAccount(username, "", true);
             }
             else
             {
