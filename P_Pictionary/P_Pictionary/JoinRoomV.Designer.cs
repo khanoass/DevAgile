@@ -61,30 +61,31 @@
             // 
             this.roomPasswordLabel.AutoSize = true;
             this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomPasswordLabel.Location = new System.Drawing.Point(66, 161);
+            this.roomPasswordLabel.Location = new System.Drawing.Point(31, 153);
             this.roomPasswordLabel.Name = "roomPasswordLabel";
-            this.roomPasswordLabel.Size = new System.Drawing.Size(113, 16);
+            this.roomPasswordLabel.Size = new System.Drawing.Size(191, 32);
             this.roomPasswordLabel.TabIndex = 29;
-            this.roomPasswordLabel.Text = "Room password :";
+            this.roomPasswordLabel.Text = "Mot de passe de la salle :\r\n(Uniquement pour salle privée)";
+            this.roomPasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(73, 28);
+            this.titleLabel.Location = new System.Drawing.Point(48, 28);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(91, 20);
+            this.titleLabel.Size = new System.Drawing.Size(144, 20);
             this.titleLabel.TabIndex = 28;
-            this.titleLabel.Text = "Join a room";
+            this.titleLabel.Text = "Rejoindre une salle";
             // 
             // roomLoginButton
             // 
             this.roomLoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roomLoginButton.Location = new System.Drawing.Point(70, 234);
+            this.roomLoginButton.Location = new System.Drawing.Point(72, 234);
             this.roomLoginButton.Name = "roomLoginButton";
             this.roomLoginButton.Size = new System.Drawing.Size(101, 23);
             this.roomLoginButton.TabIndex = 27;
-            this.roomLoginButton.Text = "Login";
+            this.roomLoginButton.Text = "Se connecter";
             this.roomLoginButton.UseVisualStyleBackColor = true;
             this.roomLoginButton.Click += new System.EventHandler(this.roomLoginButton_Click);
             // 
@@ -100,11 +101,11 @@
             // 
             this.roomIPLabel.AutoSize = true;
             this.roomIPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomIPLabel.Location = new System.Drawing.Point(87, 84);
+            this.roomIPLabel.Location = new System.Drawing.Point(76, 84);
             this.roomIPLabel.Name = "roomIPLabel";
-            this.roomIPLabel.Size = new System.Drawing.Size(66, 16);
+            this.roomIPLabel.Size = new System.Drawing.Size(91, 16);
             this.roomIPLabel.TabIndex = 25;
-            this.roomIPLabel.Text = "Room IP :";
+            this.roomIPLabel.Text = "IP de la salle :";
             // 
             // JoinRoomV
             // 

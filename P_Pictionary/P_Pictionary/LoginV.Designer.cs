@@ -45,7 +45,7 @@
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(101, 23);
             this.loginButton.TabIndex = 36;
-            this.loginButton.Text = "Login";
+            this.loginButton.Text = "Se connecter";
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
@@ -68,54 +68,54 @@
             // CreateAccountLabel
             // 
             this.CreateAccountLabel.AutoSize = true;
-            this.CreateAccountLabel.Location = new System.Drawing.Point(82, 276);
+            this.CreateAccountLabel.Location = new System.Drawing.Point(81, 276);
             this.CreateAccountLabel.Name = "CreateAccountLabel";
-            this.CreateAccountLabel.Size = new System.Drawing.Size(80, 13);
+            this.CreateAccountLabel.Size = new System.Drawing.Size(85, 13);
             this.CreateAccountLabel.TabIndex = 33;
             this.CreateAccountLabel.TabStop = true;
-            this.CreateAccountLabel.Text = "Create account";
+            this.CreateAccountLabel.Text = "Créer un compte";
             this.CreateAccountLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CreateAccountLabel_LinkClicked);
             // 
             // loginGuestLabel
             // 
             this.loginGuestLabel.AutoSize = true;
-            this.loginGuestLabel.Location = new System.Drawing.Point(82, 238);
+            this.loginGuestLabel.Location = new System.Drawing.Point(52, 238);
             this.loginGuestLabel.Name = "loginGuestLabel";
-            this.loginGuestLabel.Size = new System.Drawing.Size(76, 13);
+            this.loginGuestLabel.Size = new System.Drawing.Size(149, 13);
             this.loginGuestLabel.TabIndex = 32;
             this.loginGuestLabel.TabStop = true;
-            this.loginGuestLabel.Text = "Login as guest";
+            this.loginGuestLabel.Text = "Se connecter en tant qu\'invité";
             this.loginGuestLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginGuestLabel_LinkClicked);
             // 
             // passwordLabel
             // 
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordLabel.Location = new System.Drawing.Point(88, 126);
+            this.passwordLabel.Location = new System.Drawing.Point(75, 126);
             this.passwordLabel.Name = "passwordLabel";
-            this.passwordLabel.Size = new System.Drawing.Size(74, 16);
+            this.passwordLabel.Size = new System.Drawing.Size(96, 16);
             this.passwordLabel.TabIndex = 31;
-            this.passwordLabel.Text = "Password :";
+            this.passwordLabel.Text = "Mot de passe :";
             // 
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameLabel.Location = new System.Drawing.Point(89, 63);
+            this.usernameLabel.Location = new System.Drawing.Point(90, 63);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(77, 16);
+            this.usernameLabel.Size = new System.Drawing.Size(61, 16);
             this.usernameLabel.TabIndex = 30;
-            this.usernameLabel.Text = "Username :";
+            this.usernameLabel.Text = "Pseudo :";
             // 
             // TitleLabel
             // 
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleLabel.Location = new System.Drawing.Point(99, 20);
+            this.TitleLabel.Location = new System.Drawing.Point(69, 20);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(48, 20);
+            this.TitleLabel.Size = new System.Drawing.Size(104, 20);
             this.TitleLabel.TabIndex = 38;
-            this.TitleLabel.Text = "Login";
+            this.TitleLabel.Text = "Se connecter";
             // 
             // LoginV
             // 

@@ -41,7 +41,7 @@
             this.joinRoomButton.Name = "joinRoomButton";
             this.joinRoomButton.Size = new System.Drawing.Size(217, 66);
             this.joinRoomButton.TabIndex = 7;
-            this.joinRoomButton.Text = "Join Room";
+            this.joinRoomButton.Text = "Rejoindre une salle";
             this.joinRoomButton.UseVisualStyleBackColor = true;
             this.joinRoomButton.Click += new System.EventHandler(this.joinRoomButton_Click);
             // 
@@ -52,7 +52,7 @@
             this.createRoomButton.Name = "createRoomButton";
             this.createRoomButton.Size = new System.Drawing.Size(217, 66);
             this.createRoomButton.TabIndex = 6;
-            this.createRoomButton.Text = "Create Room";
+            this.createRoomButton.Text = "Créer une salle";
             this.createRoomButton.UseVisualStyleBackColor = true;
             this.createRoomButton.Click += new System.EventHandler(this.createRoomButton_Click);
             // 

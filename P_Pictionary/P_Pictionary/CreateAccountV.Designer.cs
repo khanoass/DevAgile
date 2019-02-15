@@ -44,9 +44,9 @@
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLabel.Location = new System.Drawing.Point(61, 28);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(118, 20);
+            this.TitleLabel.Size = new System.Drawing.Size(127, 20);
             this.TitleLabel.TabIndex = 34;
-            this.TitleLabel.Text = "Create account";
+            this.TitleLabel.Text = "Créer un compte";
             // 
             // createButton
             // 
@@ -55,7 +55,7 @@
             this.createButton.Name = "createButton";
             this.createButton.Size = new System.Drawing.Size(101, 23);
             this.createButton.TabIndex = 33;
-            this.createButton.Text = "Create";
+            this.createButton.Text = "Créer";
             this.createButton.UseVisualStyleBackColor = true;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
@@ -81,9 +81,9 @@
             this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordLabel.Location = new System.Drawing.Point(80, 155);
             this.passwordLabel.Name = "passwordLabel";
-            this.passwordLabel.Size = new System.Drawing.Size(74, 16);
+            this.passwordLabel.Size = new System.Drawing.Size(96, 16);
             this.passwordLabel.TabIndex = 30;
-            this.passwordLabel.Text = "Password :";
+            this.passwordLabel.Text = "Mot de passe :";
             // 
             // usernameLabel
             // 
@@ -91,9 +91,9 @@
             this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.Location = new System.Drawing.Point(82, 77);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(77, 16);
+            this.usernameLabel.Size = new System.Drawing.Size(61, 16);
             this.usernameLabel.TabIndex = 29;
-            this.usernameLabel.Text = "Username :";
+            this.usernameLabel.Text = "Pseudo :";
             // 
             // backButton
             // 

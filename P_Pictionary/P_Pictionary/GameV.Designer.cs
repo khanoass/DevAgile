@@ -55,26 +55,26 @@
             this.btnReady.Name = "btnReady";
             this.btnReady.Size = new System.Drawing.Size(75, 40);
             this.btnReady.TabIndex = 79;
-            this.btnReady.Text = "Ready";
+            this.btnReady.Text = "Prêt";
             this.btnReady.UseVisualStyleBackColor = true;
             // 
             // lblSize
             // 
             this.lblSize.AutoSize = true;
-            this.lblSize.Location = new System.Drawing.Point(352, 480);
+            this.lblSize.Location = new System.Drawing.Point(291, 480);
             this.lblSize.Name = "lblSize";
-            this.lblSize.Size = new System.Drawing.Size(33, 13);
+            this.lblSize.Size = new System.Drawing.Size(94, 13);
             this.lblSize.TabIndex = 78;
-            this.lblSize.Text = "Size :";
+            this.lblSize.Text = "Taille du pinceau :";
             // 
             // lblColor
             // 
             this.lblColor.AutoSize = true;
             this.lblColor.Location = new System.Drawing.Point(105, 480);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(37, 13);
+            this.lblColor.Size = new System.Drawing.Size(49, 13);
             this.lblColor.TabIndex = 77;
-            this.lblColor.Text = "Color :";
+            this.lblColor.Text = "Couleur :";
             // 
             // btnCreateChangeRoom
             // 
@@ -83,7 +83,7 @@
             this.btnCreateChangeRoom.Name = "btnCreateChangeRoom";
             this.btnCreateChangeRoom.Size = new System.Drawing.Size(168, 23);
             this.btnCreateChangeRoom.TabIndex = 76;
-            this.btnCreateChangeRoom.Text = "Create / Change room";
+            this.btnCreateChangeRoom.Text = "Créer / Changer de salle";
             this.btnCreateChangeRoom.UseVisualStyleBackColor = true;
             this.btnCreateChangeRoom.Click += new System.EventHandler(this.btnCreateChangeRoom_Click);
             // 
@@ -94,7 +94,7 @@
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(168, 23);
             this.btnQuit.TabIndex = 75;
-            this.btnQuit.Text = "Quit";
+            this.btnQuit.Text = "Quitter";
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
@@ -134,15 +134,15 @@
             this.lblCurrentPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentPlayer.Location = new System.Drawing.Point(12, 24);
             this.lblCurrentPlayer.Name = "lblCurrentPlayer";
-            this.lblCurrentPlayer.Size = new System.Drawing.Size(73, 20);
+            this.lblCurrentPlayer.Size = new System.Drawing.Size(79, 20);
             this.lblCurrentPlayer.TabIndex = 71;
-            this.lblCurrentPlayer.Text = "Player 1";
+            this.lblCurrentPlayer.Text = "Joueur 1";
             // 
             // btnChooseColor
             // 
             this.btnChooseColor.BackColor = System.Drawing.Color.Black;
             this.btnChooseColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChooseColor.Location = new System.Drawing.Point(148, 466);
+            this.btnChooseColor.Location = new System.Drawing.Point(161, 466);
             this.btnChooseColor.Name = "btnChooseColor";
             this.btnChooseColor.Size = new System.Drawing.Size(40, 40);
             this.btnChooseColor.TabIndex = 70;
@@ -179,27 +179,27 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 136);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 66;
-            this.label4.Text = "Player 3 : 0";
+            this.label4.Text = "Joueur 3 : 0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 113);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 65;
-            this.label3.Text = "Player 2 : 0";
+            this.label3.Text = "Joueur 2 : 0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 64;
-            this.label2.Text = "Player 1 : 0";
+            this.label2.Text = "Joueur 1 : 0";
             // 
             // lblWord
             // 
@@ -207,9 +207,9 @@
             this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWord.Location = new System.Drawing.Point(240, 38);
             this.lblWord.Name = "lblWord";
-            this.lblWord.Size = new System.Drawing.Size(59, 20);
+            this.lblWord.Size = new System.Drawing.Size(121, 20);
             this.lblWord.TabIndex = 63;
-            this.lblWord.Text = "Word : ";
+            this.lblWord.Text = "Mot à dessiner :";
             // 
             // pnlDrawArea
             // 
