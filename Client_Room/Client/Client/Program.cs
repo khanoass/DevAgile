@@ -18,7 +18,11 @@ namespace Client
             IPAddress ipAdressServer = IPAddress.Parse("172.16.30.46");
             IPAddress ipAdressLocal = RecupIpAdress();
 
+<<<<<<< HEAD
             string username = "Je peux pas j ai aquaponey";
+=======
+            string username = "testUser";
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             
             int serverPort = 50000;
             
@@ -39,6 +43,7 @@ namespace Client
             Console.ReadLine();
 
             // Commentaire de test sans importance
+            // Pas vraiment plus d'importance
         }
 
         /// <summary>

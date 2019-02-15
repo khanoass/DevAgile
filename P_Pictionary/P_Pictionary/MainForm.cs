@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P_Pictionary.Controllers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,27 @@ namespace P_Pictionary
 {
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// Contrôleur d'authenetification
+        /// </summary>
+        public AuthenticationController AuthController { get; }
+
         Stack<UserControl> history = new Stack<UserControl>();
 
         public MainForm()
         {
-            InitializeComponent();
-            LoginV loginV = new LoginV(this);
-            ChangeView(loginV);
+            AuthController = new AuthenticationController();
+            if (!AuthController.Init())
+            {
+                MessageBox.Show("Erreur de connexion à la base de données");
+                //TODO fermer app
+            }
+            else
+            {
+                InitializeComponent();
+                LoginV loginV = new LoginV(this);
+                ChangeView(loginV);
+            }
         }
 
         public void ChangeView(UserControl View)

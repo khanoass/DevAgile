@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace P_Pictionary
 {
+    /// <summary>
+    /// Page de connexion à un compte
+    /// </summary>
     public partial class LoginV : UserControl
     {
         private MainForm mainForm;
@@ -20,18 +23,38 @@ namespace P_Pictionary
             this.mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Création d'un compte invité
+        /// </summary>
         private void loginGuestLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            mainForm.ChangeView(new RoomActionV(mainForm));
+            if (mainForm.AuthController.CreateGuestAccount())
+            {
+                mainForm.ChangeView(new RoomActionV(mainForm));
+            }
+            else
+            {
+                MessageBox.Show("Erreur lors de la création d'un compte invité");
+            }
         }
 
+        /// <summary>
+        /// Connexion à un compte
+        /// </summary>
         private void loginButton_Click(object sender, EventArgs e)
         {
-            mainForm.ChangeView(new RoomActionV(mainForm));
+            if (mainForm.AuthController.Log_in(usernameTextBox.Text, passwordTextBox.Text))
+            {
+                mainForm.ChangeView(new RoomActionV(mainForm));
+            }
+            else
+            {
+                MessageBox.Show("Erreur d'authentification");
+            }
         }
 
         private void CreateAccountLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
+        {            
             mainForm.ChangeView(new CreateAccountV(mainForm));
         }
     }

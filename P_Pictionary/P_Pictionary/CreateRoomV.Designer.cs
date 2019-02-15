@@ -29,18 +29,30 @@
         private void InitializeComponent()
         {
             this.createRoomButton = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.privateRoomCheckBox = new System.Windows.Forms.CheckBox();
+=======
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.roomPasswordLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
             this.roomPasswordTextBox = new System.Windows.Forms.TextBox();
             this.backButton = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
+=======
+            this.linkLogOut = new System.Windows.Forms.LinkLabel();
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             ((System.ComponentModel.ISupportInitialize)(this.backButton)).BeginInit();
             this.SuspendLayout();
             // 
             // createRoomButton
             // 
             this.createRoomButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< HEAD
             this.createRoomButton.Location = new System.Drawing.Point(54, 156);
+=======
+            this.createRoomButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.createRoomButton.Location = new System.Drawing.Point(47, 354);
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.createRoomButton.Name = "createRoomButton";
             this.createRoomButton.Size = new System.Drawing.Size(119, 23);
             this.createRoomButton.TabIndex = 38;
@@ -48,6 +60,7 @@
             this.createRoomButton.UseVisualStyleBackColor = true;
             this.createRoomButton.Click += new System.EventHandler(this.createRoomButton_Click);
             // 
+<<<<<<< HEAD
             // privateRoomCheckBox
             // 
             this.privateRoomCheckBox.AutoSize = true;
@@ -66,23 +79,40 @@
             this.roomPasswordLabel.Location = new System.Drawing.Point(35, 99);
             this.roomPasswordLabel.Name = "roomPasswordLabel";
             this.roomPasswordLabel.Size = new System.Drawing.Size(161, 16);
+=======
+            // roomPasswordLabel
+            // 
+            this.roomPasswordLabel.AutoSize = true;
+            this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.roomPasswordLabel.Location = new System.Drawing.Point(43, 91);
+            this.roomPasswordLabel.Name = "roomPasswordLabel";
+            this.roomPasswordLabel.Size = new System.Drawing.Size(132, 20);
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.roomPasswordLabel.TabIndex = 32;
             this.roomPasswordLabel.Text = "Mot de passe de la salle :";
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(56, 9);
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.titleLabel.Location = new System.Drawing.Point(33, 53);
             this.titleLabel.Name = "titleLabel";
+<<<<<<< HEAD
             this.titleLabel.Size = new System.Drawing.Size(115, 20);
+=======
+            this.titleLabel.Size = new System.Drawing.Size(151, 26);
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.titleLabel.TabIndex = 31;
             this.titleLabel.Text = "Créer une salle";
             // 
             // roomPasswordTextBox
             // 
             this.roomPasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+<<<<<<< HEAD
             this.roomPasswordTextBox.Location = new System.Drawing.Point(54, 118);
+=======
+            this.roomPasswordTextBox.Location = new System.Drawing.Point(47, 114);
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.roomPasswordTextBox.Name = "roomPasswordTextBox";
             this.roomPasswordTextBox.Size = new System.Drawing.Size(119, 20);
             this.roomPasswordTextBox.TabIndex = 30;
@@ -98,13 +128,31 @@
             this.backButton.TabStop = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
+<<<<<<< HEAD
+=======
+            // linkLogOut
+            // 
+            this.linkLogOut.AutoSize = true;
+            this.linkLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.linkLogOut.Location = new System.Drawing.Point(164, 10);
+            this.linkLogOut.Name = "linkLogOut";
+            this.linkLogOut.Size = new System.Drawing.Size(56, 17);
+            this.linkLogOut.TabIndex = 44;
+            this.linkLogOut.TabStop = true;
+            this.linkLogOut.Text = "Log out";
+            // 
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             // CreateRoomV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.linkLogOut);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.createRoomButton);
+<<<<<<< HEAD
             this.Controls.Add(this.privateRoomCheckBox);
+=======
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.Controls.Add(this.roomPasswordLabel);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.roomPasswordTextBox);
@@ -120,9 +168,13 @@
 
         private System.Windows.Forms.PictureBox backButton;
         private System.Windows.Forms.Button createRoomButton;
+<<<<<<< HEAD
         private System.Windows.Forms.CheckBox privateRoomCheckBox;
+=======
+>>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
         private System.Windows.Forms.Label roomPasswordLabel;
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.TextBox roomPasswordTextBox;
+        private System.Windows.Forms.LinkLabel linkLogOut;
     }
 }

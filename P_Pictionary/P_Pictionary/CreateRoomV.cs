@@ -25,20 +25,6 @@ namespace P_Pictionary
             mainForm.BackView();
         }
 
-        private void privateRoomCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            if (privateRoomCheckBox.Checked)
-            {
-                roomPasswordLabel.Visible = false;
-                roomPasswordTextBox.Visible = false;
-            }
-            else
-            {
-                roomPasswordLabel.Visible = true;
-                roomPasswordTextBox.Visible = true;
-            }
-        }
-
         private void createRoomButton_Click(object sender, EventArgs e)
         {
             mainForm.ChangeView(new GameV(mainForm));
