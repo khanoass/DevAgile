@@ -12,3 +12,10 @@ F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.csprojAsse
 F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.exe
 F:\426-DevelopperAGILE\GIT\Client_Room\Client\Client\obj\Debug\Client.pdb
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\bin\Debug\Client.exe.config
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\bin\Debug\Client.exe
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\bin\Debug\Client.pdb
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\obj\Debug\Client.exe
+C:\Users\lopezbouma\votreDossierLocal\Client_Room\Client\Client\obj\Debug\Client.pdb

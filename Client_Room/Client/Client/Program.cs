@@ -18,7 +18,7 @@ namespace Client
             IPAddress ipAdressServer = IPAddress.Parse("172.16.30.46");
             IPAddress ipAdressLocal = RecupIpAdress();
 
-            string username = "staubligu";
+            string username = "Je peux pas j ai aquaponey";
             
             int serverPort = 50000;
             
