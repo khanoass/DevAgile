@@ -29,5 +29,16 @@ namespace P_Pictionary
         {
             mainForm.ChangeView(new RoomActionV(mainForm));
         }
+
+        private void btnChooseColor_Click(object sender, EventArgs e)
+        {
+            colorDialog.ShowDialog();
+            btnChooseColor.BackColor = colorDialog.Color;
+        }
+
+        private void GameV_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

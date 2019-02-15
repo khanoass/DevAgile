@@ -78,12 +78,6 @@
     <Compile Include="GameV.Designer.cs">
       <DependentUpon>GameV.cs</DependentUpon>
     </Compile>
-    <Compile Include="InviteV.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="InviteV.Designer.cs">
-      <DependentUpon>InviteV.cs</DependentUpon>
-    </Compile>
     <Compile Include="JoinRoomV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -119,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameV.resx">
       <DependentUpon>GameV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InviteV.resx">
-      <DependentUpon>InviteV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JoinRoomV.resx">
       <DependentUpon>JoinRoomV.cs</DependentUpon>

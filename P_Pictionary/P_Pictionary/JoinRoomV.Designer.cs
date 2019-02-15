@@ -35,6 +35,7 @@
             this.roomLoginButton = new System.Windows.Forms.Button();
             this.roomIPTextBox = new System.Windows.Forms.TextBox();
             this.roomIPLabel = new System.Windows.Forms.Label();
+            this.linkLogOut = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.backButton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,26 +61,27 @@
             // roomPasswordLabel
             // 
             this.roomPasswordLabel.AutoSize = true;
-            this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomPasswordLabel.Location = new System.Drawing.Point(66, 161);
+            this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.roomPasswordLabel.Location = new System.Drawing.Point(57, 161);
             this.roomPasswordLabel.Name = "roomPasswordLabel";
-            this.roomPasswordLabel.Size = new System.Drawing.Size(113, 16);
+            this.roomPasswordLabel.Size = new System.Drawing.Size(132, 20);
             this.roomPasswordLabel.TabIndex = 29;
             this.roomPasswordLabel.Text = "Room password :";
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(73, 28);
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.titleLabel.Location = new System.Drawing.Point(55, 36);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(91, 20);
+            this.titleLabel.Size = new System.Drawing.Size(126, 26);
             this.titleLabel.TabIndex = 28;
             this.titleLabel.Text = "Join a room";
             // 
             // roomLoginButton
             // 
             this.roomLoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roomLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.roomLoginButton.Location = new System.Drawing.Point(70, 234);
             this.roomLoginButton.Name = "roomLoginButton";
             this.roomLoginButton.Size = new System.Drawing.Size(101, 23);
@@ -99,17 +101,29 @@
             // roomIPLabel
             // 
             this.roomIPLabel.AutoSize = true;
-            this.roomIPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomIPLabel.Location = new System.Drawing.Point(87, 84);
+            this.roomIPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.roomIPLabel.Location = new System.Drawing.Point(81, 84);
             this.roomIPLabel.Name = "roomIPLabel";
-            this.roomIPLabel.Size = new System.Drawing.Size(66, 16);
+            this.roomIPLabel.Size = new System.Drawing.Size(79, 20);
             this.roomIPLabel.TabIndex = 25;
             this.roomIPLabel.Text = "Room IP :";
+            // 
+            // linkLogOut
+            // 
+            this.linkLogOut.AutoSize = true;
+            this.linkLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.linkLogOut.Location = new System.Drawing.Point(182, 10);
+            this.linkLogOut.Name = "linkLogOut";
+            this.linkLogOut.Size = new System.Drawing.Size(56, 17);
+            this.linkLogOut.TabIndex = 32;
+            this.linkLogOut.TabStop = true;
+            this.linkLogOut.Text = "Log out";
             // 
             // JoinRoomV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.linkLogOut);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.roomPasswordTextBox);
             this.Controls.Add(this.roomPasswordLabel);
@@ -134,5 +148,6 @@
         private System.Windows.Forms.Button roomLoginButton;
         private System.Windows.Forms.TextBox roomIPTextBox;
         private System.Windows.Forms.Label roomIPLabel;
+        private System.Windows.Forms.LinkLabel linkLogOut;
     }
 }

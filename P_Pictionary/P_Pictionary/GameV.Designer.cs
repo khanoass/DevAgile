@@ -46,11 +46,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblWord = new System.Windows.Forms.Label();
             this.pnlDrawArea = new System.Windows.Forms.Panel();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // btnReady
             // 
             this.btnReady.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReady.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnReady.Location = new System.Drawing.Point(16, 466);
             this.btnReady.Name = "btnReady";
             this.btnReady.Size = new System.Drawing.Size(75, 40);
@@ -79,6 +81,7 @@
             // btnCreateChangeRoom
             // 
             this.btnCreateChangeRoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateChangeRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.btnCreateChangeRoom.Location = new System.Drawing.Point(529, 6);
             this.btnCreateChangeRoom.Name = "btnCreateChangeRoom";
             this.btnCreateChangeRoom.Size = new System.Drawing.Size(168, 23);
@@ -90,6 +93,7 @@
             // btnQuit
             // 
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.btnQuit.Location = new System.Drawing.Point(529, 38);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(168, 23);
@@ -101,6 +105,7 @@
             // btnSizeLarge
             // 
             this.btnSizeLarge.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSizeLarge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSizeLarge.Location = new System.Drawing.Point(483, 466);
             this.btnSizeLarge.Name = "btnSizeLarge";
             this.btnSizeLarge.Size = new System.Drawing.Size(40, 40);
@@ -111,6 +116,7 @@
             // btnSizeMedium
             // 
             this.btnSizeMedium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSizeMedium.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSizeMedium.Location = new System.Drawing.Point(437, 466);
             this.btnSizeMedium.Name = "btnSizeMedium";
             this.btnSizeMedium.Size = new System.Drawing.Size(40, 40);
@@ -121,6 +127,7 @@
             // btnSizeSmall
             // 
             this.btnSizeSmall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSizeSmall.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSizeSmall.Location = new System.Drawing.Point(391, 466);
             this.btnSizeSmall.Name = "btnSizeSmall";
             this.btnSizeSmall.Size = new System.Drawing.Size(40, 40);
@@ -131,10 +138,10 @@
             // lblCurrentPlayer
             // 
             this.lblCurrentPlayer.AutoSize = true;
-            this.lblCurrentPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.lblCurrentPlayer.Location = new System.Drawing.Point(12, 24);
             this.lblCurrentPlayer.Name = "lblCurrentPlayer";
-            this.lblCurrentPlayer.Size = new System.Drawing.Size(73, 20);
+            this.lblCurrentPlayer.Size = new System.Drawing.Size(100, 26);
             this.lblCurrentPlayer.TabIndex = 71;
             this.lblCurrentPlayer.Text = "Player 1";
             // 
@@ -147,10 +154,12 @@
             this.btnChooseColor.Size = new System.Drawing.Size(40, 40);
             this.btnChooseColor.TabIndex = 70;
             this.btnChooseColor.UseVisualStyleBackColor = false;
+            this.btnChooseColor.Click += new System.EventHandler(this.btnChooseColor_Click);
             // 
             // btnSendText
             // 
             this.btnSendText.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSendText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSendText.Location = new System.Drawing.Point(660, 466);
             this.btnSendText.Name = "btnSendText";
             this.btnSendText.Size = new System.Drawing.Size(40, 40);
@@ -177,37 +186,40 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label4.Location = new System.Drawing.Point(12, 136);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(86, 20);
             this.label4.TabIndex = 66;
             this.label4.Text = "Player 3 : 0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.Location = new System.Drawing.Point(12, 113);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 65;
             this.label3.Text = "Player 2 : 0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(86, 20);
             this.label2.TabIndex = 64;
             this.label2.Text = "Player 1 : 0";
             // 
             // lblWord
             // 
             this.lblWord.AutoSize = true;
-            this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.lblWord.Location = new System.Drawing.Point(240, 38);
             this.lblWord.Name = "lblWord";
-            this.lblWord.Size = new System.Drawing.Size(59, 20);
+            this.lblWord.Size = new System.Drawing.Size(82, 26);
             this.lblWord.TabIndex = 63;
             this.lblWord.Text = "Word : ";
             // 
@@ -243,6 +255,7 @@
             this.Controls.Add(this.pnlDrawArea);
             this.Name = "GameV";
             this.Size = new System.Drawing.Size(709, 517);
+            this.Load += new System.EventHandler(this.GameV_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +281,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblWord;
         private System.Windows.Forms.Panel pnlDrawArea;
+        private System.Windows.Forms.ColorDialog colorDialog;
     }
 }
