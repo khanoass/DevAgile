@@ -43,9 +43,17 @@ namespace P_Pictionary
         /// </summary>
         private void loginButton_Click(object sender, EventArgs e)
         {
-            if (mainForm.AuthController.Log_in(usernameTextBox.Text, passwordTextBox.Text))
+            //Vérification du pattern du nom d'utilisateur et du mot de passe
+            if (mainForm.AuthController.RegexUsername(usernameTextBox.Text) && mainForm.AuthController.RegexPassword(passwordTextBox.Text))
             {
-                mainForm.ChangeView(new RoomActionV(mainForm));
+                if (mainForm.AuthController.Log_in(usernameTextBox.Text, passwordTextBox.Text))
+                {
+                    mainForm.ChangeView(new RoomActionV(mainForm));
+                }
+                else
+                {
+                    MessageBox.Show("Erreur d'authentification");
+                }
             }
             else
             {

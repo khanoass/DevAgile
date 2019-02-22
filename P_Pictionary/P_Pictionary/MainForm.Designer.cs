@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(287, 362);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Pictionary";
             this.ResumeLayout(false);
 
         }

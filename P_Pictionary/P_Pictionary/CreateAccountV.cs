@@ -29,14 +29,22 @@ namespace P_Pictionary
         /// </summary>
         private void createButton_Click(object sender, EventArgs e)
         {
-            //Vérification des authenifiants
-            if (mainForm.AuthController.Sign_in(usernameTextBox.Text, passwordTextBox.Text))
+            //Vérification du pattern du nom d'utilisateur et du mot de passe
+            if (mainForm.AuthController.RegexUsername(usernameTextBox.Text) && mainForm.AuthController.RegexPassword(passwordTextBox.Text))
             {
-                mainForm.ChangeView(new RoomActionV(mainForm));
+                //Vérification des authenifiants
+                if (mainForm.AuthController.Sign_in(usernameTextBox.Text, passwordTextBox.Text))
+                {
+                    mainForm.ChangeView(new RoomActionV(mainForm));
+                }
+                else
+                {
+                    MessageBox.Show("Erreur d'authentification");
+                }
             }
             else
             {
-                MessageBox.Show("Erreur d'authentification");
+                MessageBox.Show("Le nom d'utlisateur ne peut contenir que des lettres, chiffres et séparateur\nLe mot de passe doit contenir au moins 1 majuscule, minuscule, chiffre, caractère spécial et être long de 8 caractères ou plus.");
             }
         }
 
