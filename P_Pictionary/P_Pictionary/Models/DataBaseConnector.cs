@@ -4,6 +4,7 @@
 //  Description : Connecteur à la base de données
 
 using MySql.Data.MySqlClient;
+using System;
 
 namespace P_Pictionary.Models
 {
@@ -92,18 +93,19 @@ namespace P_Pictionary.Models
         public int GetNewGuestNumber()
         {
             //Écriture de la commande
-            sqlCommand.CommandText = $"SELECT idUser FROM t_user WHERE usrIsGuest = TRUE ORDER BY idUser DESC LIMIT 1;";
+            sqlCommand.CommandText = $"SELECT COUNT(idUser) FROM t_user WHERE usrIsGuest = TRUE;";
 
             //Exécution de la commande
             object result = sqlCommand.ExecuteScalar();
 
+            //renvoi du Résultat
             if(result is null)
             {
                 return 0;
             }
             else
             {
-                return (int)result;
+                return Convert.ToInt32(result);
             }
         }
 
@@ -115,7 +117,7 @@ namespace P_Pictionary.Models
         public bool CheckUniquenessUsername(string username)
         {
             //Écriture de la commande
-            sqlCommand.CommandText = $"SELECT COUNT(*) FROM t_user WHERE usrName=\"{username}\";";
+            sqlCommand.CommandText = $"SELECT COUNT(idUser) FROM t_user WHERE usrName=\"{username}\";";
 
             //Exécution de la commande
             return (long)sqlCommand.ExecuteScalar() == 0;

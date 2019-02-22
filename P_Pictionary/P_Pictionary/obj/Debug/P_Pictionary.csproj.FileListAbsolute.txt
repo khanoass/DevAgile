@@ -40,7 +40,6 @@ D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.cspro
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.CreateAccountV.resources
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.CreateRoomV.resources
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.GameV.resources
-D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.InviteV.resources
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.JoinRoomV.resources
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.LoginV.resources
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.MainForm.resources
