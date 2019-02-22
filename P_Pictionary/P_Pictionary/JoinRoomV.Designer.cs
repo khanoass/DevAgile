@@ -53,7 +53,7 @@
             // roomPasswordTextBox
             // 
             this.roomPasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.roomPasswordTextBox.Location = new System.Drawing.Point(46, 190);
+            this.roomPasswordTextBox.Location = new System.Drawing.Point(46, 202);
             this.roomPasswordTextBox.Name = "roomPasswordTextBox";
             this.roomPasswordTextBox.Size = new System.Drawing.Size(148, 20);
             this.roomPasswordTextBox.TabIndex = 30;
@@ -61,14 +61,10 @@
             // roomPasswordLabel
             // 
             this.roomPasswordLabel.AutoSize = true;
-            this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomPasswordLabel.Location = new System.Drawing.Point(31, 153);
-            this.roomPasswordLabel.Name = "roomPasswordLabel";
-            this.roomPasswordLabel.Size = new System.Drawing.Size(191, 32);
             this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.roomPasswordLabel.Location = new System.Drawing.Point(57, 161);
+            this.roomPasswordLabel.Location = new System.Drawing.Point(8, 153);
             this.roomPasswordLabel.Name = "roomPasswordLabel";
-            this.roomPasswordLabel.Size = new System.Drawing.Size(132, 20);
+            this.roomPasswordLabel.Size = new System.Drawing.Size(224, 40);
             this.roomPasswordLabel.TabIndex = 29;
             this.roomPasswordLabel.Text = "Mot de passe de la salle :\r\n(Uniquement pour salle privée)";
             this.roomPasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -76,23 +72,18 @@
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(48, 28);
-            this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(144, 20);
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.titleLabel.Location = new System.Drawing.Point(55, 36);
+            this.titleLabel.Location = new System.Drawing.Point(21, 47);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(126, 26);
+            this.titleLabel.Size = new System.Drawing.Size(198, 26);
             this.titleLabel.TabIndex = 28;
             this.titleLabel.Text = "Rejoindre une salle";
             // 
             // roomLoginButton
             // 
             this.roomLoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roomLoginButton.Location = new System.Drawing.Point(72, 234);
             this.roomLoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.roomLoginButton.Location = new System.Drawing.Point(70, 234);
+            this.roomLoginButton.Location = new System.Drawing.Point(70, 246);
             this.roomLoginButton.Name = "roomLoginButton";
             this.roomLoginButton.Size = new System.Drawing.Size(101, 23);
             this.roomLoginButton.TabIndex = 27;
@@ -111,14 +102,10 @@
             // roomIPLabel
             // 
             this.roomIPLabel.AutoSize = true;
-            this.roomIPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roomIPLabel.Location = new System.Drawing.Point(76, 84);
-            this.roomIPLabel.Name = "roomIPLabel";
-            this.roomIPLabel.Size = new System.Drawing.Size(91, 16);
             this.roomIPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.roomIPLabel.Location = new System.Drawing.Point(81, 84);
+            this.roomIPLabel.Location = new System.Drawing.Point(68, 88);
             this.roomIPLabel.Name = "roomIPLabel";
-            this.roomIPLabel.Size = new System.Drawing.Size(79, 20);
+            this.roomIPLabel.Size = new System.Drawing.Size(106, 20);
             this.roomIPLabel.TabIndex = 25;
             this.roomIPLabel.Text = "IP de la salle :";
             // 

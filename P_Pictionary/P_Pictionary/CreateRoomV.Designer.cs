@@ -55,7 +55,7 @@ namespace P_Pictionary
             // privateRoomCheckBox
             // 
             this.privateRoomCheckBox.AutoSize = true;
-            this.privateRoomCheckBox.Location = new System.Drawing.Point(26, 176);
+            this.privateRoomCheckBox.Location = new System.Drawing.Point(31, 181);
             this.privateRoomCheckBox.Name = "privateRoomCheckBox";
             this.privateRoomCheckBox.Size = new System.Drawing.Size(180, 17);
             this.privateRoomCheckBox.TabIndex = 33;
@@ -67,7 +67,7 @@ namespace P_Pictionary
             // 
             this.roomPasswordLabel.AutoSize = true;
             this.roomPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.roomPasswordLabel.Location = new System.Drawing.Point(34, 100);
+            this.roomPasswordLabel.Location = new System.Drawing.Point(26, 100);
             this.roomPasswordLabel.Name = "roomPasswordLabel";
             this.roomPasswordLabel.Size = new System.Drawing.Size(187, 20);
             this.roomPasswordLabel.TabIndex = 32;
@@ -77,7 +77,7 @@ namespace P_Pictionary
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.titleLabel.Location = new System.Drawing.Point(47, 56);
+            this.titleLabel.Location = new System.Drawing.Point(43, 56);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(159, 26);
             this.titleLabel.TabIndex = 31;
