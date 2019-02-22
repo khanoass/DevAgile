@@ -141,11 +141,8 @@
             this.lblCurrentPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.lblCurrentPlayer.Location = new System.Drawing.Point(12, 24);
             this.lblCurrentPlayer.Name = "lblCurrentPlayer";
-<<<<<<< HEAD
             this.lblCurrentPlayer.Size = new System.Drawing.Size(79, 20);
-=======
             this.lblCurrentPlayer.Size = new System.Drawing.Size(100, 26);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.lblCurrentPlayer.TabIndex = 71;
             this.lblCurrentPlayer.Text = "Joueur 1";
             // 
@@ -193,11 +190,8 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label4.Location = new System.Drawing.Point(12, 136);
             this.label4.Name = "label4";
-<<<<<<< HEAD
             this.label4.Size = new System.Drawing.Size(63, 13);
-=======
             this.label4.Size = new System.Drawing.Size(86, 20);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.label4.TabIndex = 66;
             this.label4.Text = "Joueur 3 : 0";
             // 
@@ -207,11 +201,8 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.Location = new System.Drawing.Point(12, 113);
             this.label3.Name = "label3";
-<<<<<<< HEAD
             this.label3.Size = new System.Drawing.Size(63, 13);
-=======
             this.label3.Size = new System.Drawing.Size(86, 20);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.label3.TabIndex = 65;
             this.label3.Text = "Joueur 2 : 0";
             // 
@@ -221,11 +212,8 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
-<<<<<<< HEAD
             this.label2.Size = new System.Drawing.Size(63, 13);
-=======
             this.label2.Size = new System.Drawing.Size(86, 20);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.label2.TabIndex = 64;
             this.label2.Text = "Joueur 1 : 0";
             // 
@@ -235,11 +223,8 @@
             this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.lblWord.Location = new System.Drawing.Point(240, 38);
             this.lblWord.Name = "lblWord";
-<<<<<<< HEAD
             this.lblWord.Size = new System.Drawing.Size(121, 20);
-=======
             this.lblWord.Size = new System.Drawing.Size(82, 26);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.lblWord.TabIndex = 63;
             this.lblWord.Text = "Mot à dessiner :";
             // 

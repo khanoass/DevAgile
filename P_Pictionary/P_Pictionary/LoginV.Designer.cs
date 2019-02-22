@@ -70,16 +70,13 @@
             // CreateAccountLabel
             // 
             this.CreateAccountLabel.AutoSize = true;
-<<<<<<< HEAD
             this.CreateAccountLabel.Location = new System.Drawing.Point(81, 276);
             this.CreateAccountLabel.Name = "CreateAccountLabel";
             this.CreateAccountLabel.Size = new System.Drawing.Size(85, 13);
-=======
             this.CreateAccountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.CreateAccountLabel.Location = new System.Drawing.Point(72, 256);
             this.CreateAccountLabel.Name = "CreateAccountLabel";
             this.CreateAccountLabel.Size = new System.Drawing.Size(89, 15);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.CreateAccountLabel.TabIndex = 33;
             this.CreateAccountLabel.TabStop = true;
             this.CreateAccountLabel.Text = "Créer un compte";
@@ -88,16 +85,13 @@
             // loginGuestLabel
             // 
             this.loginGuestLabel.AutoSize = true;
-<<<<<<< HEAD
             this.loginGuestLabel.Location = new System.Drawing.Point(52, 238);
             this.loginGuestLabel.Name = "loginGuestLabel";
             this.loginGuestLabel.Size = new System.Drawing.Size(149, 13);
-=======
             this.loginGuestLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.loginGuestLabel.Location = new System.Drawing.Point(72, 239);
             this.loginGuestLabel.Name = "loginGuestLabel";
             this.loginGuestLabel.Size = new System.Drawing.Size(87, 15);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.loginGuestLabel.TabIndex = 32;
             this.loginGuestLabel.TabStop = true;
             this.loginGuestLabel.Text = "Se connecter en tant qu\'invité";
@@ -106,51 +100,42 @@
             // passwordLabel
             // 
             this.passwordLabel.AutoSize = true;
-<<<<<<< HEAD
             this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordLabel.Location = new System.Drawing.Point(75, 126);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(96, 16);
-=======
             this.passwordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.passwordLabel.Location = new System.Drawing.Point(78, 126);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(86, 20);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.passwordLabel.TabIndex = 31;
             this.passwordLabel.Text = "Mot de passe :";
             // 
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
-<<<<<<< HEAD
             this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.Location = new System.Drawing.Point(90, 63);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(61, 16);
-=======
             this.usernameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.usernameLabel.Location = new System.Drawing.Point(77, 63);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(91, 20);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.usernameLabel.TabIndex = 30;
             this.usernameLabel.Text = "Pseudo :";
             // 
             // TitleLabel
             // 
             this.TitleLabel.AutoSize = true;
-<<<<<<< HEAD
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLabel.Location = new System.Drawing.Point(69, 20);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(104, 20);
-=======
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.TitleLabel.Location = new System.Drawing.Point(95, 20);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(65, 26);
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
             this.TitleLabel.TabIndex = 38;
             this.TitleLabel.Text = "Se connecter";
             // 

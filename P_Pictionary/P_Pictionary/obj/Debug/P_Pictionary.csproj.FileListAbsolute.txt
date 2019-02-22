@@ -53,3 +53,10 @@ D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.cspro
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.exe
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.pdb
 >>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe.config
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.pdb
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\Google.Protobuf.dll
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\MySql.Data.dll
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\Google.Protobuf.xml
+C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\MySql.Data.xml
