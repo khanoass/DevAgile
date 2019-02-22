@@ -15,7 +15,6 @@ C:\Users\lopezbouma\Desktop\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.Inv
 C:\Users\lopezbouma\Desktop\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.JoinRoomV.resources
 C:\Users\lopezbouma\Desktop\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.LoginV.resources
 C:\Users\lopezbouma\Desktop\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.RoomActionV.resources
-<<<<<<< HEAD
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.csprojResolveAssemblyReference.cache
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.CreateAccountV.resources
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.CreateRoomV.resources
@@ -30,7 +29,6 @@ C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pict
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.csproj.CoreCompileInputs.cache
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.exe
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.pdb
-=======
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe.config
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.pdb
@@ -52,7 +50,6 @@ D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.cspro
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.csproj.CoreCompileInputs.cache
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.exe
 D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.pdb
->>>>>>> 864ea6decc4b343fc0f7608032eb424195bb69d3
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe.config
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.exe
 C:\Users\lopezbouma\votreDossierLocal\P_Pictionary\P_Pictionary\bin\Debug\P_Pictionary.pdb
