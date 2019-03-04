@@ -18,6 +18,9 @@ namespace P_Pictionary
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            createRoomButton.Text = mainForm.RessourceManager.GetString("titleRoomCreation");
+            joinRoomButton.Text = mainForm.RessourceManager.GetString("joinRoom");
         }
 
         private void joinRoomButton_Click(object sender, EventArgs e)

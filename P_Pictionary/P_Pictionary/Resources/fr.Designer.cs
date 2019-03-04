@@ -61,11 +61,56 @@ namespace P_Pictionary.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Couleur :.
+        /// </summary>
+        internal static string color {
+            get {
+                return ResourceManager.GetString("color", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Créer.
         /// </summary>
         internal static string create {
             get {
                 return ResourceManager.GetString("create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Créer / Changer de salle.
+        /// </summary>
+        internal static string createChangeRoom {
+            get {
+                return ResourceManager.GetString("createChangeRoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Rejoindre une salle.
+        /// </summary>
+        internal static string joinRoom {
+            get {
+                return ResourceManager.GetString("joinRoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Se connecter.
+        /// </summary>
+        internal static string logIn {
+            get {
+                return ResourceManager.GetString("logIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Se connecter en tant qu&apos;invité.
+        /// </summary>
+        internal static string logInAsGuest {
+            get {
+                return ResourceManager.GetString("logInAsGuest", resourceCulture);
             }
         }
         
@@ -97,11 +142,47 @@ namespace P_Pictionary.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Quitter.
+        /// </summary>
+        internal static string quit {
+            get {
+                return ResourceManager.GetString("quit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Prêt.
+        /// </summary>
+        internal static string ready {
+            get {
+                return ResourceManager.GetString("ready", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à IP de la salle :.
+        /// </summary>
+        internal static string roomIP {
+            get {
+                return ResourceManager.GetString("roomIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Mot de passe de la salle :.
         /// </summary>
         internal static string roomPassword {
             get {
                 return ResourceManager.GetString("roomPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Taille du pinceau :.
+        /// </summary>
+        internal static string size {
+            get {
+                return ResourceManager.GetString("size", resourceCulture);
             }
         }
         
@@ -129,6 +210,15 @@ namespace P_Pictionary.Resources {
         internal static string username {
             get {
                 return ResourceManager.GetString("username", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Mot à dessiner :.
+        /// </summary>
+        internal static string wordToDraw {
+            get {
+                return ResourceManager.GetString("wordToDraw", resourceCulture);
             }
         }
     }

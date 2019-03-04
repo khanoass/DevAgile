@@ -18,6 +18,12 @@ namespace P_Pictionary
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            linkLogOut.Text = mainForm.RessourceManager.GetString("logOut");
+            titleLabel.Text = mainForm.RessourceManager.GetString("joinRoom");
+            roomIPLabel.Text = mainForm.RessourceManager.GetString("roomIP");
+            roomPasswordLabel.Text = mainForm.RessourceManager.GetString("roomPassword");
+            roomLoginButton.Text = mainForm.RessourceManager.GetString("logIn");
         }
 
         private void backButton_Click(object sender, EventArgs e)

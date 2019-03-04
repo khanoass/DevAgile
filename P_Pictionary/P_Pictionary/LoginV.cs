@@ -21,6 +21,13 @@ namespace P_Pictionary
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            TitleLabel.Text = mainForm.RessourceManager.GetString("logIn");
+            usernameLabel.Text = mainForm.RessourceManager.GetString("username");
+            passwordLabel.Text = mainForm.RessourceManager.GetString("password");
+            loginButton.Text = mainForm.RessourceManager.GetString("logIn");
+            loginGuestLabel.Text = mainForm.RessourceManager.GetString("logInAsGuest");
+            CreateAccountLabel.Text = mainForm.RessourceManager.GetString("titleAccountCreation");
         }
 
         /// <summary>

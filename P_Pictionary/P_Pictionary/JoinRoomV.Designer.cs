@@ -114,12 +114,12 @@
             // 
             this.linkLogOut.AutoSize = true;
             this.linkLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.linkLogOut.Location = new System.Drawing.Point(182, 10);
+            this.linkLogOut.Location = new System.Drawing.Point(122, 10);
             this.linkLogOut.Name = "linkLogOut";
-            this.linkLogOut.Size = new System.Drawing.Size(56, 17);
+            this.linkLogOut.Size = new System.Drawing.Size(108, 17);
             this.linkLogOut.TabIndex = 32;
             this.linkLogOut.TabStop = true;
-            this.linkLogOut.Text = "Log out";
+            this.linkLogOut.Text = "Se déconnecter";
             // 
             // JoinRoomV
             // 

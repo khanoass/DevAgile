@@ -117,8 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="color" xml:space="preserve">
+    <value>Couleur :</value>
+  </data>
   <data name="create" xml:space="preserve">
     <value>Créer</value>
+  </data>
+  <data name="createChangeRoom" xml:space="preserve">
+    <value>Créer / Changer de salle</value>
+  </data>
+  <data name="joinRoom" xml:space="preserve">
+    <value>Rejoindre une salle</value>
+  </data>
+  <data name="logIn" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="logInAsGuest" xml:space="preserve">
+    <value>Se connecter en tant qu'invité</value>
   </data>
   <data name="logOut" xml:space="preserve">
     <value>Se déconnecter</value>
@@ -129,8 +144,20 @@
   <data name="privateRoom" xml:space="preserve">
     <value>Salle privée (avec mot de passe)</value>
   </data>
+  <data name="quit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="roomIP" xml:space="preserve">
+    <value>IP de la salle :</value>
+  </data>
   <data name="roomPassword" xml:space="preserve">
     <value>Mot de passe de la salle :</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>Taille du pinceau :</value>
   </data>
   <data name="titleAccountCreation" xml:space="preserve">
     <value>Créer un compte</value>
@@ -140,5 +167,8 @@
   </data>
   <data name="username" xml:space="preserve">
     <value>Pseudo :</value>
+  </data>
+  <data name="wordToDraw" xml:space="preserve">
+    <value>Mot à dessiner :</value>
   </data>
 </root>

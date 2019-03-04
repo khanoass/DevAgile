@@ -18,6 +18,13 @@ namespace P_Pictionary
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            btnCreateChangeRoom.Text = mainForm.RessourceManager.GetString("createChangeRoom");
+            btnQuit.Text = mainForm.RessourceManager.GetString("quit");
+            lblWord.Text = mainForm.RessourceManager.GetString("wordToDraw");
+            btnReady.Text = mainForm.RessourceManager.GetString("ready");
+            lblColor.Text = mainForm.RessourceManager.GetString("color");
+            lblSize.Text = mainForm.RessourceManager.GetString("size");
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
