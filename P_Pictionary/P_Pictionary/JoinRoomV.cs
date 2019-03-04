@@ -27,6 +27,7 @@ namespace P_Pictionary
 
         private void roomLoginButton_Click(object sender, EventArgs e)
         {
+            //TODO : Authentification IP Room et Mot de passe
             mainForm.ChangeView(new GameV(mainForm));
         }
     }

@@ -57,6 +57,7 @@
             this.roomPasswordTextBox.Name = "roomPasswordTextBox";
             this.roomPasswordTextBox.Size = new System.Drawing.Size(148, 20);
             this.roomPasswordTextBox.TabIndex = 30;
+            this.roomPasswordTextBox.UseSystemPasswordChar = true;
             // 
             // roomPasswordLabel
             // 
