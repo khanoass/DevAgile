@@ -86,6 +86,7 @@ namespace P_Pictionary
             // roomPasswordTextBox
             // 
             this.roomPasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.roomPasswordTextBox.Enabled = false;
             this.roomPasswordTextBox.Location = new System.Drawing.Point(62, 129);
             this.roomPasswordTextBox.Name = "roomPasswordTextBox";
             this.roomPasswordTextBox.Size = new System.Drawing.Size(119, 20);

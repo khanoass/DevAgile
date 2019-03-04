@@ -48,7 +48,15 @@ namespace P_Pictionary
 
         private void privateRoomCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            
+            //Activer la textBox pour le mot de passe si la checkBox est cochée
+            if (privateRoomCheckBox.Checked)
+            {
+                roomPasswordTextBox.Enabled = true;
+            }
+            else
+            {
+                roomPasswordTextBox.Enabled = false;
+            }
         }
     }
 }
