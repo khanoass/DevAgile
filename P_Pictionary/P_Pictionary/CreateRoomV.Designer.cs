@@ -133,11 +133,6 @@ namespace P_Pictionary
 
         }
 
-        private void privateRoomCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private System.Windows.Forms.PictureBox backButton;

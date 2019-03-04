@@ -27,6 +27,7 @@ namespace P_Pictionary
 
         private void createRoomButton_Click(object sender, EventArgs e)
         {
+            //Si Room privé coché
             if (privateRoomCheckBox.Checked)
             {
                 //Vérification du pattern du mot de passe
@@ -39,6 +40,15 @@ namespace P_Pictionary
                     MessageBox.Show("Le mot de passe doit contenir au moins 1 majuscule, minuscule, chiffre, caractère spécial et être long de 8 caractères ou plus.");
                 }
             }
+            else
+            {
+                mainForm.ChangeView(new GameV(mainForm));
+            }
+        }
+
+        private void privateRoomCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
