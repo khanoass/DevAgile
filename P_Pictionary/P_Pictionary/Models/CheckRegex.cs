@@ -25,7 +25,7 @@ namespace P_Pictionary.Models
             checkUsername = @"^[a-zA-Z0-9]+([+,.=()*_ -]?[a-zA-Z0-9])*$";
             
             // Doit contenir au moins 1 minuscule, majuscule, chiffre, caractère spécial, et avoir 8 caractères ou plus.
-            checkPassword = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[+.,=()\-_!@#\$%\^&\*])(?=.{8,})$";
+            checkPassword = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[+.,=()\-_!@#\$%\^&\*]).{8,}$";
         }
     }
 }
