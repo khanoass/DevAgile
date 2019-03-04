@@ -27,14 +27,17 @@ namespace P_Pictionary
 
         private void createRoomButton_Click(object sender, EventArgs e)
         {
-            //Vérification du pattern du nom d'utilisateur et du mot de passe
-            if (mainForm.AuthController.RegexPassword(roomPasswordTextBox.Text))
+            if (privateRoomCheckBox.Checked)
             {
-                mainForm.ChangeView(new GameV(mainForm));
-            }
-            else
-            {
-                MessageBox.Show("Le mot de passe doit contenir au moins 1 majuscule, minuscule, chiffre, caractère spécial et être long de 8 caractères ou plus.");
+                //Vérification du pattern du mot de passe
+                if (mainForm.AuthController.RegexPassword(roomPasswordTextBox.Text))
+                {
+                    mainForm.ChangeView(new GameV(mainForm));
+                }
+                else
+                {
+                    MessageBox.Show("Le mot de passe doit contenir au moins 1 majuscule, minuscule, chiffre, caractère spécial et être long de 8 caractères ou plus.");
+                }
             }
         }
     }
