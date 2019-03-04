@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,10 +19,19 @@ namespace P_Pictionary
         /// </summary>
         public AuthenticationController AuthController { get; }
 
+        /// <summary>
+        /// Manager de ressources
+        /// </summary>
+        public ResourceManager RessourceManager { get; }
+
         Stack<UserControl> history = new Stack<UserControl>();
+
 
         public MainForm()
         {
+            //Création de manager de ressources en français
+            RessourceManager = new ResourceManager(typeof(Resources.fr));
+
             AuthController = new AuthenticationController();
             if (!AuthController.Init())
             {

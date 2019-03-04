@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TitleLabel = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
             this.createButton = new System.Windows.Forms.Button();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.usernameTextBox = new System.Windows.Forms.TextBox();
@@ -38,15 +38,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.backButton)).BeginInit();
             this.SuspendLayout();
             // 
-            // TitleLabel
+            // titleLabel
             // 
-            this.TitleLabel.AutoSize = true;
-            this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.TitleLabel.Location = new System.Drawing.Point(33, 47);
-            this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(174, 26);
-            this.TitleLabel.TabIndex = 34;
-            this.TitleLabel.Text = "Créer un compte";
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.titleLabel.Location = new System.Drawing.Point(33, 47);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(174, 26);
+            this.titleLabel.TabIndex = 34;
+            this.titleLabel.Text = "Créer un compte";
             // 
             // createButton
             // 
@@ -113,7 +113,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.backButton);
-            this.Controls.Add(this.TitleLabel);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.createButton);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.usernameTextBox);
@@ -130,7 +130,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox backButton;
-        private System.Windows.Forms.Label TitleLabel;
+        private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Button createButton;
         private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.TextBox usernameTextBox;

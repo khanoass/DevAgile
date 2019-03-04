@@ -76,3 +76,4 @@ C:\Users\saezarayle\Desktop\lstV\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionar
 C:\Users\saezarayle\Desktop\lstV\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.csproj.CoreCompileInputs.cache
 C:\Users\saezarayle\Desktop\lstV\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.exe
 C:\Users\saezarayle\Desktop\lstV\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.pdb
+D:\DATA\moulinma\DevAgile\P_Pictionary\P_Pictionary\obj\Debug\P_Pictionary.Resources.fr.resources

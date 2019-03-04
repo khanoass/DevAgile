@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using P_Pictionary.Controllers;
+using System.Resources;
 
 namespace P_Pictionary
 {
@@ -22,6 +23,11 @@ namespace P_Pictionary
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            titleLabel.Text = mainForm.RessourceManager.GetString("titleAccountCreation");
+            usernameLabel.Text = mainForm.RessourceManager.GetString("username");
+            passwordLabel.Text = mainForm.RessourceManager.GetString("password");
+            createButton.Text = mainForm.RessourceManager.GetString("create");
         }
 
         /// <summary>
